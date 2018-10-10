@@ -11,7 +11,7 @@ public class Ejercicio2 {
      System.out.print("Buenos Dias");
     } else if ((hora >= 12) && (hora <= 20)) {
     System.out.print("Buenas tardes");
-    } else if ((hora >= 21) && (hora <= 5)) {
+    } else if (((hora >= 21) && (hora <= 24)) || ((hora >=0) && (hora <=5))) {
       System.out.print("Buenas noches");
     } else {
       System.out.print("Error 4040404040");
