@@ -3,11 +3,11 @@ public class Ejercicio6 {
     
     System.out.println("Tienes que adivinar el numero que he pensado entre 0 y 100 en menos de 5 intentos");
     
-    int adivinar = (int)(Math.random()*100)+10;
+    int adivinar = (int)(Math.random()*101);
     int numero = 0;
     int intentos = 5;
     
-    System.out.println(adivinar);
+    
     
     while ( (intentos > 0) && ( numero != adivinar) ){
     System.out.print("Introduce un numero: ");
