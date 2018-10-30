@@ -2,14 +2,17 @@ public class Ejercicio20{
   public static void main(String[] args){
     
    int capacidad = 0;
-   
+   int anchura = 0;
    System.out.print("Introduce la cantidad de la cuba en litro: ");
    capacidad = Integer.parseInt(System.console().readLine());
-   
+   System.out.print("Introduce la anchura de la cuba: ");
+   anchura = Integer.parseInt(System.console().readLine());
+
+
    int pintada = 0;
    int agua = 0;
    int huecos = 0;
-   int anchura = 6;
+   
    agua = (int)(Math.random()*(capacidad)+1);
    
    huecos = capacidad - agua;
