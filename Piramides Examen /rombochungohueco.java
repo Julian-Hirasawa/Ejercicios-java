@@ -34,7 +34,7 @@ public class rombochungohueco{
    
    pintada = 0;
    espacios = 1;
-   hueco = altura;
+   hueco = hueco - 4;
    while (pintada < altura - 1 ){
      
      for ( int x = 0; x < espacios; x++){
