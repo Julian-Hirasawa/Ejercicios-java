@@ -7,7 +7,7 @@ public class Ejercicio6 {
     for (int i = 0; i< num.length; i++){
       System.out.println("Introduce un numero por pantalla: ");
       num[i] = Integer.parseInt(s.nextLine());
-      System.out.println("El num gurdado es :" + num[i]);
+     
     }
     int final1 = num[14];
 
