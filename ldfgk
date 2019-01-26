@@ -1,0 +1,7 @@
+ 2005  git . --add
+ 2006  git --help
+ 2007  git . add
+ 2008  git add .--
+ 2009  git add .
+ 2010  git comit "tema9"
+ 2012  history | grep -i git | less
