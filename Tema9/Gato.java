@@ -5,6 +5,7 @@ public class Gato {
 
   public Gato(){
     this.vidas = 7;
+    this.nombre = "";
   }
 
   public String getNombre() {
@@ -39,12 +40,17 @@ public class Gato {
     } else {
       resultado = "El nombre del gato es " + getNombre() + ".";
     }
-    if ( getEdad() != 0){
+    if ( getEdad() >= 0){
       resultado += "Tienen una edad de " + getEdad() + ".";
     } else {
       resultado += " No se sabe la edad del gato. ";
     }
-    resultado += "Le quedan " + getVidas() + " vidas";
+    if ( getVidas() >= 0){
+      resultado += "Le quedan " + getVidas() + " vidas";
+    } else {
+      resultado += "No se sabe cuantas vidas le quedan";
+    }
+
     return  resultado;
   }
 }
